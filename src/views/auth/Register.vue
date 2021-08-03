@@ -94,7 +94,7 @@
                 let password_confirmation = user.password_confirmation
 
                 //send server with axios
-                axios.post('http://localhost:8000/api/register', {
+                axios.post('http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/register', {
                         name,
                         email,
                         password,

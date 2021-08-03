@@ -60,7 +60,7 @@ import axios from 'axios'
                 
                 //get data user
                 axios.defaults.headers.common.Authorization = `Bearer ${token}`
-                axios.get('http://localhost:8000/api/user')
+                axios.get('http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/user')
                 .then(response => {
 
                     //console.log(response.data.name)
@@ -78,7 +78,7 @@ import axios from 'axios'
 
                 //logout
                 axios.defaults.headers.common.Authorization = `Bearer ${token}`
-                axios.post('http://localhost:8000/api/logout')
+                axios.post('http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/logout')
                 .then(response => {
 
                     if(response.data.success) {

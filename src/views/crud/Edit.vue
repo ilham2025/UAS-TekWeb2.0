@@ -75,7 +75,7 @@ export default {
        const route = useRoute();
        
        onMounted(() => {
-           axios.get(`http://localhost:8000/api/posts/${route.params.id}`)
+           axios.get(`http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/posts/${route.params.id}`)
            .then(response => {
                post.nama = response.data.data.nama
                post.nim = response.data.data.nim
@@ -92,7 +92,7 @@ export default {
            let jurusan = post.jurusan
            let angkatan = post.angkatan
 
-           axios.put(`http://localhost:8000/api/posts/${route.params.id}`,
+           axios.put(`http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/posts/${route.params.id}`,
            {
                 nama: nama,
                 nim: nim,

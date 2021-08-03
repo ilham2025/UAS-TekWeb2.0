@@ -70,7 +70,7 @@
                 let password = user.password
 
                 //send server with axios
-                axios.post('http://localhost:8000/api/login', {
+                axios.post('http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/login', {
                         email,
                         password,
                 })

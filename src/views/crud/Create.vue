@@ -86,7 +86,7 @@ export default {
         let angkatan = post.angkatan;
 
         axios
-            .post('http://localhost:8000/api/posts', {
+            .post('http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/posts', {
                 nama: nama,
                 nim: nim,
                 jurusan: jurusan,

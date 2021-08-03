@@ -46,7 +46,7 @@ export default {
         let posts = ref([])
         onMounted(() => {
             axios
-            .get("http://localhost:8000/api/posts")
+            .get("http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/posts")
             .then((response) => {
                 const res = response.data;
                 const tmp = {};
@@ -67,7 +67,7 @@ export default {
         function postDelete(id){
             // delete data post by id
             axios
-                .delete(`http://localhost:8000/api/posts/${id}`)
+                .delete(`http://novaagustina.online/novaagustina.online/if18a/UAS-Kel01/public/api/posts/${id}`)
                 .then((response) => {
                     alert(id);
                     if(response.data.success == true) {
